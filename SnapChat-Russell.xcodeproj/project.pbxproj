@@ -12,6 +12,7 @@
 		FD2B013E22374E8B0023EC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2B013C22374E8B0023EC47 /* Main.storyboard */; };
 		FD2B014022374E8C0023EC47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2B013F22374E8C0023EC47 /* Assets.xcassets */; };
 		FD2B014322374E8C0023EC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2B014122374E8C0023EC47 /* LaunchScreen.storyboard */; };
+		FD2B014C223773740023EC47 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2B014B223773740023EC47 /* PageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FD2B013F22374E8C0023EC47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2B014222374E8C0023EC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD2B014422374E8C0023EC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD2B014B223773740023EC47 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		FD2B013722374E8B0023EC47 /* SnapChat-Russell */ = {
 			isa = PBXGroup;
 			children = (
+				FD2B014A2237733F0023EC47 /* PageVC */,
 				FD2B013822374E8B0023EC47 /* AppDelegate.swift */,
 				FD2B013A22374E8B0023EC47 /* ViewController.swift */,
 				FD2B013C22374E8B0023EC47 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				FD2B014422374E8C0023EC47 /* Info.plist */,
 			);
 			path = "SnapChat-Russell";
+			sourceTree = "<group>";
+		};
+		FD2B014A2237733F0023EC47 /* PageVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD2B014B223773740023EC47 /* PageVC.swift */,
+			);
+			path = PageVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD2B013B22374E8B0023EC47 /* ViewController.swift in Sources */,
+				FD2B014C223773740023EC47 /* PageVC.swift in Sources */,
 				FD2B013922374E8B0023EC47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A9JA8PNZH;
 				INFOPLIST_FILE = "SnapChat-Russell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.snapchat-russell.007.SnapChat-Russell";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A9JA8PNZH;
 				INFOPLIST_FILE = "SnapChat-Russell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.snapchat-russell.007.SnapChat-Russell";
+				PRODUCT_BUNDLE_IDENTIFIER = test.app.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
